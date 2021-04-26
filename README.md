@@ -1,5 +1,5 @@
 # Create-task-piano
-Making a piano in website, don't know if python or js yet
+Making a piano in website
 
 So, I need to make a piano however, idk if i want to use python or js yet because they've both got things i gotta learn if I want to do it
 either I learn js or i learn how to use pygame
@@ -45,3 +45,13 @@ Third chunk-
         this also needs ui and a way for the user to add notes to the thing and then play when they're done
         it could just be either use the piano or add it's own thing so for ex. someone knew the notes to a song off the top of their head
         then they could just add that instead of going through the piano one note at a time but only if there is enough time to make this
+
+Ok, notes stuff about pianos that you don't know:
+    Alright, notes only go from C,D,E,F,G,A,B and then loops back around
+        those are the white ones
+    Sharp notes are C#/Db, D#/Eb, F#/Gb, G#/Ab, A#/Bb
+        these are called accidentals apparently because they are either sharp or flat, ain't that nice
+    Also apparently some of the white keys could also be sharp or flat, it's just also one of the other letters
+    pianos are nuts
+    ok, now I need to find where to get audio of these wacky notes
+    We could try some midi stuff cause that might be easier, we'll see
