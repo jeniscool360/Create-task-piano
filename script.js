@@ -1,4 +1,8 @@
 /*
+also ex
+*/
+
+/*
 const keyA2 = document.querySelector("#A2");
 keyA2.onclick = (e) => {
   console.log("ding")

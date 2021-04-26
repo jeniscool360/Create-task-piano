@@ -48,6 +48,7 @@ Third chunk-
         then they could just add that instead of going through the piano one note at a time but only if there is enough time to make this
 
 Ok, notes stuff about pianos that you don't know:
+
     Alright, notes only go from C,D,E,F,G,A,B and then loops back around
         those are the white ones
     Sharp notes are C#/Db, D#/Eb, F#/Gb, G#/Ab, A#/Bb
@@ -56,7 +57,10 @@ Ok, notes stuff about pianos that you don't know:
     pianos are nuts
     all the notes are intertwined
     there are also SUPER sharp notes and SUPER flat ones too
-    ok, now I need to find where to get audio of these wacky notes
+    It turns out, ALL NOTES ARE THE SAME, THEY JUST SOUND DIFFERENT
+        SO BIG PIANO HAVE MORE SOUNDS BUT THEY ALL HAVE THE SAME NAMES WHAT
+
+ok, now I need to find where to get audio of these wacky notes
     We could try some midi stuff cause that might be easier, we'll see
 
 Here are some places to get'em:
