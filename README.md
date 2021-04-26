@@ -33,6 +33,7 @@ Second chunk-
     the ui would be buttons, i could use the keyboard too instead of making some whole new system
         i saw one that only used the home row so I'll copy that instead of invading the whole keyboard
         that way other keys can still be used and the mouse works so they can leave with no difficulty
+            here's where i saw that: https://carolinegabriel.com/javascript-piano/
     Saw that someone added hints for notes, that could be very useful
 
 Third chunk-
@@ -53,5 +54,12 @@ Ok, notes stuff about pianos that you don't know:
         these are called accidentals apparently because they are either sharp or flat, ain't that nice
     Also apparently some of the white keys could also be sharp or flat, it's just also one of the other letters
     pianos are nuts
+    all the notes are intertwined
+    there are also SUPER sharp notes and SUPER flat ones too
     ok, now I need to find where to get audio of these wacky notes
     We could try some midi stuff cause that might be easier, we'll see
+
+Here are some places to get'em:
+
+https://samplefocus.com/tag/piano-note
+found some wavvvv https://freesound.org/people/pinkyfinger/packs/4409/
