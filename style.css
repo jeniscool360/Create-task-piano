@@ -6,7 +6,6 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
 }
 
 .white {
@@ -16,12 +15,13 @@ h1 {
   }
 
 .black {
-  background-color: black; 
-     
+  background-color: black;
 }
 
 .note {
   flex: 1;
   display: inline-flex;
-  align-items: center;
+  align-items: flex-end;
+  justify-content: center;
 }
+

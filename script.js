@@ -15,3 +15,15 @@ keys.forEach((key, i) => {
     console.log("ding", i)
   }
 });
+/*
+document.getElementById("a").onkeypress = function() {myFunction()};
+
+function myFunction() {
+  document.getElementById("a").style.backgroundColor = "red";
+}
+supposed to be for key thing but idk
+*/
+
+/*
+useful stuff https://www.w3schools.com/jsref/event_key_keycode.asp
+*/
