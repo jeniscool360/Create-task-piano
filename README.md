@@ -70,3 +70,4 @@ found some wavvvv https://freesound.org/people/pinkyfinger/packs/4409/
 
 cool thing that may or may not be helpful: http://marcgg.com/blog/2016/11/01/javascript-audio/
 stuff for adding sounds: https://www.w3schools.com/graphics/game_sound.asp
+more useful stuff: https://createjs.com/tutorials/Basics%20and%20Best%20Practices/
