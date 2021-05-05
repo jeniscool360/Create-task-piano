@@ -67,3 +67,6 @@ Here are some places to get'em:
 
 https://samplefocus.com/tag/piano-note
 found some wavvvv https://freesound.org/people/pinkyfinger/packs/4409/
+
+cool thing that may or may not be helpful: http://marcgg.com/blog/2016/11/01/javascript-audio/
+stuff for adding sounds: https://www.w3schools.com/graphics/game_sound.asp
