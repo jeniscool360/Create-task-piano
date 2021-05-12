@@ -7,6 +7,7 @@ and if statement checks the key
 /* credit for this function thing: https://javascript.info/keyboard-events */
 
 var cMajor = new Audio("piano-c_C_major.wav");
+var dMajor = new Audio("piano-d_D_major.wav");
 
 window.addEventListener("keydown", function(event){
   if (event.code === "KeyA") {
@@ -14,6 +15,7 @@ window.addEventListener("keydown", function(event){
     cMajor.play();
   } if (event.code === "KeyS") {
     text = "D";
+    dMajor.play()
   } if (event.code === "KeyD") {
     text = "E";
   } if (event.code === "KeyF") {
