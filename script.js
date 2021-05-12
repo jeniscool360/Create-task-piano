@@ -4,18 +4,31 @@ keydown is the event type
 event is the event
 and if statement checks the key
 */
-/* credit for this function thing: https://javascript.info/keyboard-events */
+// credit for keyboard function: https://javascript.info/keyboard-events
+// list credit: https://stackoverflow.com/questions/30289217/how-do-i-loop-through-a-javascript-array-of-audio-files and https://code-boxx.com/play-audio-javascript/
+// audio credit: https://freesound.org/people/pinkyfinger/
 
-var cMajor = new Audio("piano-c_C_major.wav");
-var dMajor = new Audio("piano-d_D_major.wav");
+var audio = new Audio();
+var notes = [
+  "aMajor.wav",
+  "aSharp.wav",
+  "bMajor.wav",
+  "cMajor.wav",
+  "cSharp.wav",
+  "dMajor.wav",
+  "dSharp.wav",
+  "eMajor.wav",
+  "fMajor.wav",
+  "fSharp.wav",
+  "gMajor.wav",
+  "gSharp.wav"
+];
 
 window.addEventListener("keydown", function(event){
   if (event.code === "KeyA") {
     text = "C";
-    cMajor.play();
   } if (event.code === "KeyS") {
     text = "D";
-    dMajor.play()
   } if (event.code === "KeyD") {
     text = "E";
   } if (event.code === "KeyF") {
@@ -50,21 +63,6 @@ window.addEventListener("keydown", function(event){
   document.getElementById("demo").innerHTML = text;
 })
 
-// credit for this function: https://www.w3schools.com/graphics/game_sound.asp
-/* not gonna use this yet
-function sound(src) {
-  this.sound = document.createElement("audio");
-  this.sound.src = src;
-  this.sound.setAttribute("preload", "auto");
-  document.body.appendChild(this.sound);
-  this.play = function() {
-    this.sound.play();
-  }
-  this.stop = function() {
-    this.sound.pause();
-  }
-}
-*/
 // this where it from woohoo https://code-boxx.com/play-audio-javascript/
 // (A) CREATE AUDIO OBJECT
 
