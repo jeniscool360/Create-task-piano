@@ -13,14 +13,17 @@ h1 {
 
 .white {
     height: 500px;
-    width: 30px;
+    width: 50px;
     border: 1px solid black;
+    z-index: -1;
   }
 
 .black {
   background-color: black;
   height: 300px;
   color: white;
+  z-index: 1;
+  position: absolute;
 }
 
 .note {
@@ -30,7 +33,7 @@ h1 {
   justify-content: center;
 }
 
-#demo {
+#pianoNote {
   display: flex;
   justify-content: center;
   font-size: 70px;
