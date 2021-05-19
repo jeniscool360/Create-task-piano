@@ -4,19 +4,19 @@
 
 var audio = new Audio();
 var notes = [
-  "aMajor.wav",
-  "aSharp.wav",
-  "bMajor.wav",
-  "cMajor.wav",
-  "cSharp.wav",
-  "dMajor.wav",
-  "dSharp.wav",
-  "eMajor.wav",
-  "fMajor.wav",
-  "fSharp.wav",
-  "gMajor.wav",
-  "gSharp.wav"
-];
+  "a5.wav",
+  "aSharp5.wav",
+  "b5.wav",
+  "c5.wav",
+  "cSharp5.wav",
+  "d5.wav",
+  "dSharp5.wav",
+  "e5.wav",
+  "f5.wav",
+  "fSharp5.wav",
+  "g5.wav",
+  "gSharp5.wav"
+]; 
 
 window.addEventListener("keydown", function(event){
   if (event.code === "KeyA") {
@@ -47,13 +47,13 @@ window.addEventListener("keydown", function(event){
     text = "B";
     audio = new Audio(notes[2]);
     audio.play();
-  } /*if (event.code === "KeyK") {
+  } if (event.code === "KeyK") {
     text = "C";
   } if (event.code === "KeyL") {
     text = "D";
   } if (event.code === "Semicolon") {
     text = "E";
-  }*/ if (event.code === "KeyW") {
+  } if (event.code === "KeyW") {
     text = "C#";
     audio = new Audio(notes[4]);
     audio.play();
@@ -73,10 +73,10 @@ window.addEventListener("keydown", function(event){
     text = "A#";
     audio = new Audio(notes[1]);
     audio.play();
-  } /*if (event.code === "KeyO") {
+  } if (event.code === "KeyO") {
     text = "C#";
   } if (event.code === "KeyP") {
     text = "D#";
-  }*/
-  document.getElementById("demo").innerHTML = text;
+  }
+  document.getElementById("pianoNote").innerHTML = text;
 })
