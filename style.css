@@ -2,6 +2,10 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
 #keys {
   display: flex;
   flex-direction: row;
@@ -15,15 +19,12 @@ h1 {
     height: 500px;
     width: 50px;
     border: 1px solid black;
-    z-index: -1;
   }
 
 .black {
   background-color: black;
   height: 300px;
   color: white;
-  z-index: 1;
-  position: absolute;
 }
 
 .note {
