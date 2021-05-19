@@ -1,12 +1,5 @@
-/*
-event listener popular this how work
-keydown is the event type
-event is the event
-and if statement checks the key
-*/
-
-// credit for keyboard function: https://javascript.info/keyboard-events
-// list or array credit: https://stackoverflow.com/questions/30289217/how-do-i-loop-through-a-javascript-array-of-audio-files and https://code-boxx.com/play-audio-javascript/
+// resource for how to do key events: https://javascript.info/keyboard-events
+// resource for how to do a list or array credit: https://stackoverflow.com/questions/30289217/how-do-i-loop-through-a-javascript-array-of-audio-files and https://code-boxx.com/play-audio-javascript/
 // audio credit: https://freesound.org/people/pinkyfinger/
 
 var audio = new Audio();
@@ -87,22 +80,3 @@ window.addEventListener("keydown", function(event){
   }*/
   document.getElementById("demo").innerHTML = text;
 })
-
-// this where it from woohoo https://code-boxx.com/play-audio-javascript/
-// (A) CREATE AUDIO OBJECT
-
- 
-// (B) PLAY WHEN READY
-// USE "canplaythrough" TO WAIT FOR 100% LOAD
-// cMajor.addEventListener("canplay", evt => {
-//   console.log("ready to play");
-//   cMajor.play();
-//   window.addEventListener("keydown", evt => {
-//     console.log("play sound");
-//     cMajor.play();
-//   });
-// });
-
-/*
-useful stuff https://www.w3schools.com/jsref/event_key_keycode.asp
-*/
