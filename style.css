@@ -17,6 +17,7 @@ h2 {
   font-size: 70px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
+  color: blanchedalmond;
 }
 
 /* styling credit: https://codepen.io/zastrow/pen/oDBki */
@@ -31,8 +32,8 @@ body {
 }
 
 ul {
-  height:18.875em;
-  width:34em;
+  height:19.875em;
+  width:46em;
   margin:5em auto;
   padding:3em 0 0 3em;
   position:relative;
@@ -48,6 +49,8 @@ li {
   list-style:none;
   position:relative;
   float:left;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul .white {
@@ -58,7 +61,7 @@ ul .white {
   border-bottom:1px solid #bbb;
   border-radius:0 0 5px 5px;
   box-shadow:-1px 0 0 rgba(255,255,255,0.8) inset,0 0 5px #ccc inset,0 0 3px rgba(0,0,0,0.2);
-  background:linear-gradient(to bottom,#eee 0%,#fff 100%)
+  background:linear-gradient(to bottom,#eee 0%,#fff 100%);
 }
 
 ul .white:active {
@@ -78,6 +81,7 @@ ul .white:active {
   border-radius:0 0 3px 3px;
   box-shadow:-1px -1px 2px rgba(255,255,255,0.2) inset,0 -5px 2px 3px rgba(0,0,0,0.6) inset,0 2px 4px rgba(0,0,0,0.5);
   background:linear-gradient(45deg,#222 0%,#555 100%);
+  color: bisque;
 }
 
 .black:active {
@@ -85,7 +89,7 @@ ul .white:active {
   background:linear-gradient(to right,#444 0%,#222 100%)
 }
 
-.a,.g,.f,.d,.c {
+.a,.g,.f,.d,.c,.e,.b {
   margin:0 0 0 -1em
 }
 
