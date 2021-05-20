@@ -1,6 +1,5 @@
 // resource for how to do key events: https://javascript.info/keyboard-events
 // resource for how to do a list or array credit: https://stackoverflow.com/questions/30289217/how-do-i-loop-through-a-javascript-array-of-audio-files and https://code-boxx.com/play-audio-javascript/
-// audio credit: https://freesound.org/people/pinkyfinger/
 
 var audio = new Audio();
 var notes = [
