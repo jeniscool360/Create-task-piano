@@ -22,6 +22,29 @@ var notes = [
   "e6.wav"
 ]; 
 
+function colorKeys(color) {
+  let otherColor = "";
+  if (color == "white") {
+    otherColor = "black";
+  } 
+  if (color == "yellow") {
+    otherColor = "purple";
+  }
+
+  Array.from(document.querySelector(".set").children).forEach((el, i) => {
+    const keyIndex = i % 12 + 1;
+    if ((keyIndex % 2 == 0 && keyIndex < 5) || (keyIndex % 2 == 1 && keyIndex > 6)) {
+      el.classList.add(otherColor);
+      console.log(otherColor);
+    } else {
+      el.classList.add(color);
+      console.log(color);
+    }
+  });
+}
+
+colorKeys("white");
+
 window.addEventListener("keydown", function(event){
   if (event.code === "KeyA") {
     text = "C";
@@ -91,6 +114,9 @@ window.addEventListener("keydown", function(event){
     text = "D#";
     audio = new Audio(notes[15]);
     audio.play();
+  } if (event.code === "KeyC") {
+    colorKeys("yellow"); 
   }
   document.getElementById("pianoNote").innerHTML = text;
 })
+
