@@ -15,7 +15,12 @@ var notes = [
   "f5.wav",
   "fSharp5.wav",
   "g5.wav",
-  "gSharp5.wav"
+  "gSharp5.wav",
+  "c6.wav",
+  "cSharp6.wav",
+  "d6.wav",
+  "dSharp6.wav",
+  "e6.wav"
 ]; 
 
 window.addEventListener("keydown", function(event){
@@ -49,10 +54,16 @@ window.addEventListener("keydown", function(event){
     audio.play();
   } if (event.code === "KeyK") {
     text = "C";
+    audio = new Audio(notes[12]);
+    audio.play();
   } if (event.code === "KeyL") {
     text = "D";
+    audio = new Audio(notes[14]);
+    audio.play();
   } if (event.code === "Semicolon") {
     text = "E";
+    audio = new Audio(notes[16]);
+    audio.play();
   } if (event.code === "KeyW") {
     text = "C#";
     audio = new Audio(notes[4]);
@@ -75,8 +86,12 @@ window.addEventListener("keydown", function(event){
     audio.play();
   } if (event.code === "KeyO") {
     text = "C#";
+    audio = new Audio(notes[13]);
+    audio.play();
   } if (event.code === "KeyP") {
     text = "D#";
+    audio = new Audio(notes[15]);
+    audio.play();
   }
   document.getElementById("pianoNote").innerHTML = text;
 })
