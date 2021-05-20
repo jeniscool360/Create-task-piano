@@ -22,6 +22,8 @@ var notes = [
   "e6.wav"
 ]; 
 
+//switch color function and loop
+
 function colorKeys(color) {
   let otherColor = "";
   if (color == "white") {
@@ -44,6 +46,8 @@ function colorKeys(color) {
 }
 
 colorKeys("white");
+
+//key events function, each key has a different output
 
 window.addEventListener("keydown", function(event){
   if (event.code === "KeyA") {
